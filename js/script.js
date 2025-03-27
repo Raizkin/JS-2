@@ -32,9 +32,12 @@ console.log(energy);
 
 // 4 Створити змінну totalPrice для зберігання суми покупки в магазині. Застосувати знижку discount в розмірі 10% до цієї суми за допомогою оператора множення. Результат зберегти в змінній discountedPrice та вивести результат в консоль.
 
-let totalPrice = 100;
-let discount = Number.parseInt("10%");
+const totalPrice = Number(prompt("Ведіть суму"));
+const discount = totalPrice * 10 / 100;
 const discountedPrice = totalPrice - discount;
+console.log(discount);
+console.log(discountedPrice);
+
 
 console.log(discountedPrice);
 
